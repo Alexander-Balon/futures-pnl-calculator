@@ -28,9 +28,9 @@ contract_info = PotentialContracts[selected_contract]
 
 # Start the trade dictionary with preset contract details
 contract_elements = {
-    "Contract Name": contract_info["Contract Name"],
-    "Contract Size": contract_info["Contract Size"],
-    "Unit": contract_info["Unit"],
+    "Contract Name": contract_info["name"],
+    "Contract Size": contract_info["contract_size"],
+    "Unit": contract_info["unit"],
     "Contract Position": "",
     "Entry Price": 0,
     "Exit Price": 0,
